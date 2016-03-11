@@ -1,5 +1,5 @@
 
-# JGulp:利用Gulp 配置的前端项目自动化工作流（以前用过grunt，现在玩玩gulp）
+# gulp-project:利用Gulp 配置的前端项目自动化工作流（以前用过grunt，现在玩玩gulp）
 ====
 
 
@@ -74,7 +74,7 @@ Sass 是与 Less 并举的 CSS 预处理器，一种全新的CSS 编码方式。
 
 2. 进入你的项目文件夹下`clone` 本 git 项目
 
-		$ git clone https://github.com/Jeff2Ma/JGulp.git
+		$ git clone https://github.com/201030740221/gulp-project.git
 
    `clone` 后建议删除残留的`.git` 缓存文件夹，方便添加自己的Git 版本信息管理：
    
@@ -86,7 +86,7 @@ Sass 是与 Less 并举的 CSS 预处理器，一种全新的CSS 编码方式。
 
 		npm install 
 
-4. 按照个人的项目需求，重命名`JGulp` 文件夹为你自己的项目英文名称，填写`Project.md `文件（`Project.md`文件在项目最终打包的时候会自动重命名为`README.md`保存在`build` 文件夹），填写`package.json` 文件的项目名称部分。如果需要进一步的个性化，可以编辑`gulpfile.js` 文件。
+4. 按照个人的项目需求，重命名`gulp-project` 文件夹为你自己的项目英文名称，填写`Project.md `文件（`Project.md`文件在项目最终打包的时候会自动重命名为`README.md`保存在`build` 文件夹），填写`package.json` 文件的项目名称部分。如果需要进一步的个性化，可以编辑`gulpfile.js` 文件。
 
 5. 进行相关配置（如果有需要用到相关功能）：为了安全，将重要的配置信息保存到项目目录下的一个json 文件中，名为 `config.json`，该文件示例代码如下：
 
